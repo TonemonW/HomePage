@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
+.wave-top {
+    position: absolute;
+    top: 450px;
+    left: 0;
+    width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
